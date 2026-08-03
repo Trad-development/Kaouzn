@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "preserveSymlinks": true
+  },
+  "include": ["app.js", "listeners/**/*.js", "agent/**/*.js"]
+}
